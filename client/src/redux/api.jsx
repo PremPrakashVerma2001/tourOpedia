@@ -1,5 +1,7 @@
 //this api module will handle all the api calling to backend and returning the response:
-const sbu = "http://localhost:3000"; //serverBaseURL
+// const sbu = "http://localhost:3000"; //serverBaseURL
+const sbu = import.meta.env.VITE_SERVER_BASE_URL;
+console.log(sbu);
 
 const getOptions = (method, body = null) => {
   const profile = localStorage.getItem("profile");
