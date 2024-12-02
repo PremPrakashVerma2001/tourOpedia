@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-image: url("./img/bgImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cv;
+  background-attachment: scroll;
+  backdrop-filter: blur(1px);
+} */
